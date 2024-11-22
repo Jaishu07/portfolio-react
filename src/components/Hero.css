@@ -1,0 +1,38 @@
+.hero-img img{
+    border-radius: 50%;
+    width: 10vh;
+    position: relative;
+    bottom: 10px;
+}
+.hero-img img:hover{
+    transform: scale(0.8);
+    transition-duration: 1s;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    top: 10vh;
+}
+.intro h2{
+    font-family: 600;
+    font-weight: 500;
+    font-size: 3vh;
+}
+.intro span{
+    color: #ca8a04;
+    font-weight: 800;
+}
+.intro p{
+    color:#94a3b8 ;
+    font-size: 0.8rem;
+}
+/* .coder img{
+   width: 200px;
+   position: relative;
+   left: 20vw;
+} */

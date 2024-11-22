@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .about img {
+    width: 20vw;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    margin: 5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    object-fit: cover;
+  }
+  
+  .about img:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(10, 7, 188);
+    box-shadow: 0px 0px 15px rgba(35, 35, 31, 0.3);
+    z-index: 1;
+  }
+  .h1{
+    width: 70vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .h1 h1{
+    font-size: 3vw;
+    
+  }
+  
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    .about {
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .about img {
+      width: 30vw;  /* Increase image width on tablets */
+    }
+  }
+  
+  /* Small Screens (phones) */
+  @media screen and (max-width: 480px) {
+    .about img {
+      width: 70vw;  /* Increase image width on small screens */
+    }
+  }
+  

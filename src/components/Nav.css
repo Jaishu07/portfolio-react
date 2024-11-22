@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    align-items: center;
+    font-weight: 300;
+    border-bottom: 1px solid ;
+}
+.nav-link{
+    margin: 1rem;
+}

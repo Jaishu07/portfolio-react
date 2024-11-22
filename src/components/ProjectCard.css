@@ -1,0 +1,35 @@
+
+.project{
+  height: 30vh;
+  width: 75vw;
+  background-color: rgba(0, 0, 0, 0.605);
+  border-top-right-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-left: 1px solid #fff;
+  padding: 20px;
+  
+  overflow: hidden;
+}
+.project:hover{
+  border-left: 20px solid rgb(245, 167, 66);
+  /* transform: scale(0.966); */
+  transition-duration: 1s;
+}
+h1 ,p, a{
+  /* color: red; */
+  font-size: small;
+  /* margin-left: 20px; */
+
+  
+}
+a{
+  margin-left: 10px;
+  font-weight: 200;
+  color: rgb(167, 166, 166);
+}
+p{
+  font-weight: 100;
+  font-size: 0.8rem;
+}
