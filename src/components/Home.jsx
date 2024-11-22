@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import Aboutinfo from './Aboutinfo'
 import ProjectCard from './ProjectCard'
-import Projecs from './projecs'
+import Projecs from './Projecs'
 import MeetCall from './MeetCall'
 import Footer from './Footer'
 
